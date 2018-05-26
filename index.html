@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Rumbo Mobile - login</title>
+        <link rel="icon" type="image/png" href="img/logoIcon.png"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+ <body id="bodyIndex">
+   <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div id="cardTopMargin"class="card">
+              <div class="card-header text-center">
+                <img class="fotoIndex1" src="img/logo.png" class="img-fluid" alt="Responsive image">
+              </div>
+              <div class="card-body">
+                <div id="fracaso" class="alert alert-danger alert-dismissible fade show" style="display:none" role="alert">
+                  <strong>Your username or password is incorrect.</strong> 
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <form method="post" id="formdata" action="">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="Email"name="Email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" required>
+                  </div>
+                  <div class="text-center">
+                  <button id="botonEnviar"type="submit" class="btn btn-primary">Login</button>
+                  </div>
+                </form>
+              </div>
+              <div class="card-footer text-muted">
+                Rumbo Mobile 2018
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+    <script src="main.js"></script> 
+ </body>
+</html>

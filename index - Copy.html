@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Rumbo Mobile - login</title>
+        <link rel="icon" type="image/png" href="img/logo.png"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+ <body>
+        <div id="formulario">
+            <form method="post" id="formdata">
+                <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre" required="required"></br>
+                <label for="apellidos">Apellidos: </label><input type="text" name="apellidos" id="apellidos" required="required"></br>
+                <label for="direccion">Dirección: </label><input type="text" name="direccion" id="direccion" required="required"></br>
+                Género: <input type="radio" name="genero" id="hombre" checked="checked">
+                            <label for="hombre"> Hombre - </label>
+                        <input type="radio" name="genero" id="mujer">
+                            <label for="mujer"> Mujer</label>
+                <label for="mayor">Es mayor de 18 años: </label><input type="checkbox" name="mayor" id="mayor" required="required">
+                <input type="button" id="botonenviar" value="Enviar">
+            </form>
+        </div>
+        <div id="exito" style="display:none">
+            Sus datos han sido recibidos con éxito.
+        </div>
+        <div id="fracaso" style="display:none">
+            Se ha producido un error durante el envío de datos.
+        </div>
+ </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+</html>

@@ -1,0 +1,8 @@
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 18px;
+}
+label.error{
+	color: #F00;
+	font-size: 11px;
+}
